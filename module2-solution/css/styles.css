@@ -1,0 +1,26 @@
+h1 {
+	text-align: center;
+}
+
+div {
+	border: 1px solid black;
+	float:left;
+	box-sizing: border-box;
+}
+
+h2 {
+	text-align:right;
+}
+
+/******** Large devices only **********/
+@media (min-width: 992px) {
+	div {
+		width: 33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	div {
+		width:;
+	}
+}
